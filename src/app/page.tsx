@@ -1,11 +1,9 @@
-import TopLayout from "./layouts/top-layout";
-import WelcomeSection from "./sections/welcome-section";
+import HomepageLayout from "./layouts/homepage-layout";
 
 export default function Home() {
   return (
-    <main>
-      <TopLayout />
-      <WelcomeSection />
-    </main>
+    <>
+      <HomepageLayout />
+    </>
   );
 }
