@@ -1,5 +1,5 @@
-import BadgeBubble from "./badge-bubble";
-import SearchInput from "./search-input";
+import BadgeBubble from "../components/badge-bubble";
+import SearchInput from "../components/search-input";
 
 export default function TopSection() {
   return (

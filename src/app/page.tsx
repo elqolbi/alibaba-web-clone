@@ -1,14 +1,9 @@
-import TopSection from "./ui/top-section";
+import TopLayout from "./layouts/top-layout";
 
 export default function Home() {
   return (
-    <main
-      className="top-layout bg-cover bg-center bg-no-repeat"
-      style={{
-        backgroundImage: `url(/top-layout-bg.jpg)`,
-      }}
-    >
-      <TopSection />
+    <main>
+      <TopLayout />
     </main>
   );
 }
