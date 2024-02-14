@@ -1,4 +1,4 @@
-import TopSection from "../sections/top-section";
+import SearchSection from "../sections/search-section";
 
 export default function TopLayout() {
   return (
@@ -8,7 +8,7 @@ export default function TopLayout() {
         backgroundImage: `url(/top-layout-bg.jpg)`,
       }}
     >
-      <TopSection />
+      <SearchSection />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import BadgeBubble from "../components/badge-bubble";
 import SearchInput from "../components/search-input";
 
-export default function TopSection() {
+export default function SearchSection() {
   return (
     <div className="h-80 w-full box flex justify-center items-center">
       <div className="main-content w-4/5 box space-y-10">
