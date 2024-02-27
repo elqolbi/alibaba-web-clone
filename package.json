@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "tailwind.watch": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

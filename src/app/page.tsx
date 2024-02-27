@@ -1,4 +1,4 @@
-import HomepageLayout from "./layouts/homepage-layout";
+import HomepageLayout from "../layouts/homepage-layout";
 
 export default function Home() {
   return (
