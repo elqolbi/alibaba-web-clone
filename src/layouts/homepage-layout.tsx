@@ -1,3 +1,4 @@
+import NavbarSection from "@/sections/navbar-section";
 import SearchSection from "../sections/search-section";
 import WelcomeSection from "../sections/welcome-section";
 
@@ -10,6 +11,7 @@ export default function HomepageLayout() {
           backgroundImage: `url(/top-layout-bg.jpg)`,
         }}
       >
+        <NavbarSection />
         <SearchSection />
       </div>
 
