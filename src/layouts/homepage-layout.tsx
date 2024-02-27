@@ -1,6 +1,7 @@
 import NavbarSection from "@/sections/navbar-section";
 import SearchSection from "../sections/search-section";
 import WelcomeSection from "../sections/welcome-section";
+import TopListsSection from "@/sections/top-lists-section";
 
 export default function HomepageLayout() {
   return (
@@ -16,6 +17,10 @@ export default function HomepageLayout() {
       </div>
 
       <WelcomeSection />
+
+      <div className="bg-white">
+        <TopListsSection />
+      </div>
     </main>
   );
 }
